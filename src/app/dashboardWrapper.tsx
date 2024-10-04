@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "@/app/(components)/Navbar";
-import Sidebar from './(components)/Sidebar';
+import Sidebar from '@/app/(components)/Sidebar';
 
 const DashboardWrapper = ({children}: {children:React.ReactNode}) => {
   return (
