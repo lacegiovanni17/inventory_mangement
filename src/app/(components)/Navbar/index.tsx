@@ -1,7 +1,8 @@
 "use client";
 import { Bell, Menu, Settings, Sun } from "lucide-react"
 import Link from "next/link";
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
 
 const Navbar = () => {
     return (
@@ -33,6 +34,7 @@ const Navbar = () => {
                     <hr className="w-0 h-7 border border-solid border-l border-gray-300 mx-3" />
                     <div className="flex items-center gap-3 cursor-pointer">
                         <div className="w-9 h-9">image</div>
+                        <Image src={""} alt={""} />
                         <span className="font-semibold ">Chidike</span>
                     </div>
                 </div>
