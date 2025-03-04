@@ -1,10 +1,18 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
+import Navbar from "@/app/(components)/Navbar";
+import Sidebar from "@/app/(components)/Sidebar";
 
 
 const DashboardWrapper = ({ children}: {children: React.ReactNode}) => {
   return (
-    <div>DashoardWrapper {children}</div>
+    <div className='light flex bg-grey-50 text-grey-900 w-full min-h-screen'>
+      <Sidebar />
+      <main className='flex flex-col w-full h-7 py-7 px-9 bg-gray-50 md:pl-24'>
+        <Navbar />
+      {children}
+      </main>
+      </div>
   )
 }
 
