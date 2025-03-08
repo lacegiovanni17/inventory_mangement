@@ -1,3 +1,4 @@
+"use client"; // Add this directive at the top of the file
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useRef } from "react";
