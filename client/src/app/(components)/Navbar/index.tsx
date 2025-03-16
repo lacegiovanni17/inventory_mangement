@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppDispatch, useAppSelector } from "@/redux";
+import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsDarkMode, setIsSidebarCollapsed } from "@/state";
 import { Bell, Menu, Moon, Settings, Sun } from "lucide-react";
 import Image from "next/image";
@@ -12,12 +12,12 @@ const Navbar = () => {
   const isSidebarCollapsed = useAppSelector(
     (state) => state.global.isSidebarCollapsed
   );
+  const isDarkMode = useAppSelector((state) => state.global.isDarkMode);
 
   const toggleSidebar = () => {
     dispatch(setIsSidebarCollapsed(!isSidebarCollapsed));
   };
 
-  const isDarkMode = useAppSelector((state) => state.global.isDarkMode);
   const toggleDarkMode = () => {
     dispatch(setIsDarkMode(!isDarkMode));
   };
@@ -29,7 +29,7 @@ const Navbar = () => {
         <button
           className="px-3 py-3 bg-gray-100 rounded-full hover:bg-blue-100"
           onClick={toggleSidebar}
-          title="togglesidebar"
+          title="Toggle Sidebar"
         >
           <Menu className="w-4 h-4" />
         </button>
@@ -70,8 +70,8 @@ const Navbar = () => {
             <Image
               src="https://res.cloudinary.com/dx5peetm4/image/upload/v1741197890/stockup_logo_fserdr.jpg"
               alt="Profile"
-              width={50}
-              height={50}
+              width={30}
+              height={30}
               className="rounded-full h-full object-cover"
             />
             <span className="font-semibold">StockUp</span>
