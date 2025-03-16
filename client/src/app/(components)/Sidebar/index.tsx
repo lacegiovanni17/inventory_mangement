@@ -1,6 +1,6 @@
 "use client";
 
-import { useAppDispatch, useAppSelector } from "@/redux";
+import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsSidebarCollapsed } from "@/state";
 import { Archive, Layout, LucideIcon, Menu, SlidersHorizontal, User, Clipboard, CircleDollarSign } from "lucide-react";
 import Link from "next/link";
@@ -57,7 +57,7 @@ const SideBar = () => {
       <div className={`flex gap-3 justify-between md:justify-normal items-center pt-8 ${isSidebarCollapsed ? "px-5" : "px-8"}`}>
         <div>Logo</div>
         <h1 className={`${isSidebarCollapsed ? "hidden" : "block"} font-extrabold text-2xl`}>StockUp</h1>
-      <button className="md:hidden px-3 px-y bg-gray-100 rounded-full hover:bg-blue-100" onClick={toggleSidebar}>
+      <button className="md:hidden px-3 py-2 bg-gray-100 rounded-full hover:bg-blue-100" onClick={toggleSidebar} title="Toggle Sidebar">
         <Menu className="w-4 h-4" />
       </button>
       </div>
