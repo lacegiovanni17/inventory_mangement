@@ -6,6 +6,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 
 /* ROUTE IMPORTS */
+import dashboardRoutes from './routes/dashboardRoutes';
 
 
 
@@ -22,9 +23,7 @@ app.use(cors());
 
 
 /* ROUTES */
-app.get("/hello", (req, res) => {
-  res.send("Hello World");
-});
+app.use("/dashboard", dashboardRoutes); // http://localhost:8000/dashboard
 
 /* SERVER */
 const port = process.env.PORT || 3001;
