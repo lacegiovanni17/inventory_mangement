@@ -12,7 +12,7 @@ import morgan from 'morgan';
 /* CONFIGURATIONS */
 dotenv.config();
 const app = express();
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: 'cross-origin' }));
 app.use(morgan('common'));
@@ -22,7 +22,9 @@ app.use(cors());
 
 
 /* ROUTES */
-
+app.get("/hello", (req, res) => {
+  res.send("Hello World");
+});
 
 /* SERVER */
 const port = process.env.PORT || 3001;
