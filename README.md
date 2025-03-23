@@ -3,7 +3,8 @@
 # Inventory Management Platform built on AWS
 I built a 🌐 cloud-based inventory management platform that helps businesses 📦 track stock, 🔄 automate updates, and 🚀 optimize operations. It leverages Next.js ⚛️, Node.js 🖥️, Prisma 🗄️, and AWS ☁️ for seamless performance and scalability.
 
-### ![tweetai_postman1 png](https://github.com/user-attachments/assets/7d4f166e-f6a6-423f-99fd-9ad8d9e81bda)
+### ![stockup_website](https://github.com/user-attachments/assets/a130f539-77cb-4981-a3e7-a4c2cb8f1597)
+
 
 
 ## About 
