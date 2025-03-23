@@ -68,13 +68,13 @@ const Navbar = () => {
           <hr className="w-0 h-7 border border-solid border-l border-gray-300 mx-3" />
           <div className="flex items-center gap-3 cursor-pointer">
             <Image
-              src="https://res.cloudinary.com/dx5peetm4/image/upload/v1742656059/stockup_logo-removebg-preview_lt6pcv.png"
+              src="https://res.cloudinary.com/dx5peetm4/image/upload/v1742736864/blackman_bgremoved_pp7tt6.png"
               alt="Profile"
               width={30}
               height={30}
               className="rounded-full h-full object-cover"
             />
-            <span className="font-semibold">StockUp</span>
+            <span className="font-semibold">Stockup_Henry</span>
           </div>
         </div>
         <Link href="/settings">
