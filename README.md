@@ -1,4 +1,58 @@
+# Inventory Management Platform
+
+# Inventory Management Platform built on AWS
+I built a 🌐 cloud-based inventory management platform that helps businesses 📦 track stock, 🔄 automate updates, and 🚀 optimize operations. It leverages Next.js ⚛️, Node.js 🖥️, Prisma 🗄️, and AWS ☁️ for seamless performance and scalability.
+
+### ![tweetai_postman1 png](https://github.com/user-attachments/assets/7d4f166e-f6a6-423f-99fd-9ad8d9e81bda)
+
+
+## About 
+* 👋 Hi, I’m Chidike Henry
+* 😎 I’m a fullstack developer
+* 💻 This is Cloud-based Inventory management platorm that is used to track stock, automate and optimize operations.
+* 💞️ I’m looking to collaborate on JS projects
+* 📫 How to reach me chidike.henry@gmail.com
+
+## Introduction
+I built a scalable and efficient inventory management platform designed to help businesses streamline stock tracking,
+automate inventory updates, and optimize operations. The platform leverages Next.js for a dynamic and responsive frontend,
+styled with Tailwind CSS and enhanced with Material UI Data Grid for seamless data handling and visualization.
+
+On the backend, Node.js powers the application, with Prisma ORM ensuring smooth and efficient database interactions. 
+Redux Toolkit and Redux Toolkit Query handle state management and data fetching, providing a fast and responsive user experience.
+
+The platform is cloud-native, utilizing AWS services for reliability and scalability. Key integrations include:
+
+Amazon RDS for robust database management
+
+EC2 for scalable computing power/ main server
+
+API Gateway for secure and efficient API management
+
+AWS Amplify for seamless frontend deployment
+
+S3 for secure storage solutions
+
+This inventory management system is designed for businesses seeking a powerful, user-friendly,
+and automated solution to manage their stock and operations efficiently. 
+By leveraging modern web technologies and AWS infrastructure, the platform ensures scalability, security, and seamless performance.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Technologies Used
+* NodeJS
+* ExpressJS
+* PostgreSQL
+* Prisma
+* NextJS
+* Redux
+* TailwindCSS
+* MaterialUI
+* Typescript
+* AWS
+* Cors
+* Nodemon
+* Postman
 
 ## Getting Started
 
@@ -6,31 +60,4 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
